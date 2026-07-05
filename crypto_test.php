@@ -1,7 +1,8 @@
 <?php
     use PHPUnit\Framework\TestCase;
+    require_once 'crypto_vault.php';
 
-    class SecurityIntegrityTest extends TestCase {
+    class Crypto_Test extends TestCase {
         private $key = '12345678901234567890123456789012'; 
 
         public function testUntamperedLifecycle() {
